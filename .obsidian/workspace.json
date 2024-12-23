@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,18 +165,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmux i nvim - keybindy i ustawienia.md"
+                "file": "1. PRACA WŁASNA/Proxmox - Command-Line Interface.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of tmux i nvim - keybindy i ustawienia"
+              "title": "Outline of Proxmox - Command-Line Interface"
+            }
+          },
+          {
+            "id": "38bee24d7eaf59eb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 233.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,11 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1429a15eea440166",
+  "active": "38bee24d7eaf59eb",
   "lastOpenFiles": [
+    "tmux i nvim - keybindy i ustawienia.md",
     "1. PRACA WŁASNA/Proxmox - Command-Line Interface.md",
     "2. UCZELNIA/Użyteczne komendy Git.md",
-    "tmux i nvim - keybindy i ustawienia.md",
     "1. PRACA WŁASNA/Proxmox - tworzenie maszyn wirtualnych.md",
     "1. PRACA WŁASNA/Proxmox - tworzenie szablonów maszyn wirtualnych.md",
     "1. PRACA WŁASNA/Proxmox - tworzenie szablonu kontenera LXC.md",
