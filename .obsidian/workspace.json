@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77358ffa72f4325a",
+            "id": "868f742863e5056e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "0fd9df6e93789966",
+            "id": "b4bcbfe1a19f369a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. PRACA WŁASNA/Proxmox - Command-Line Interface.md",
+                "file": "OWN_NOTES/Proxmox - Command-Line Interface.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -33,7 +33,7 @@
             }
           },
           {
-            "id": "1429a15eea440166",
+            "id": "66a08f6a8d951996",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,7 +82,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. PRACA WŁASNA/Proxmox - Command-Line Interface.md"
+                "file": "OWN_NOTES/Proxmox - Command-Line Interface.md"
               },
               "icon": "lucide-list",
               "title": "Outline of Proxmox - Command-Line Interface"
@@ -201,38 +201,38 @@
   },
   "active": "38bee24d7eaf59eb",
   "lastOpenFiles": [
+    "Użyteczne komendy Git.md",
     "tmux i nvim - keybindy i ustawienia.md",
-    "1. PRACA WŁASNA/Proxmox - Command-Line Interface.md",
-    "2. UCZELNIA/Użyteczne komendy Git.md",
-    "1. PRACA WŁASNA/Proxmox - tworzenie maszyn wirtualnych.md",
-    "1. PRACA WŁASNA/Proxmox - tworzenie szablonów maszyn wirtualnych.md",
-    "1. PRACA WŁASNA/Proxmox - tworzenie szablonu kontenera LXC.md",
-    "1. PRACA WŁASNA/Proxmox - tworzenie kontenerów LXC.md",
-    "1. PRACA WŁASNA/Proxmox - zintegrowana zapora sieciowa.md",
-    "Pasted image 20241222190956.png.md",
+    "TAGS/SERWER.md",
+    "TAGS/KOMUNIKACJA W BIZNESIE.md",
+    "TAGS/INNE.md",
+    "TAGS/C++.md",
+    "TAGS/C.md",
+    "TAGS/BAZY DANYCH.md",
+    "OWN_NOTES/Proxmox - Command-Line Interface.md",
+    "OWN_NOTES/Wprowadzenie do wskaźników.md",
+    "Proxmox - serwer kopii zapasowych (backup server).md",
+    "OWN_NOTES/Definicje pojęć i określenie problematyki.md",
+    "OWN_NOTES/Budowa komputera SFF-PC.md",
+    "Proxmox - współużytkowana pamięć masowa (shared storage).md",
+    "README.md",
+    "OWN_NOTES/Thin Pool.md",
+    "OWN_NOTES/Struktura projektu w C & C++.md",
+    "OWN_NOTES/Skróty klawiszowe Obsidian.md",
+    "OWN_NOTES/Proxmox i Linux - zerowanie dysku i rozszerzanie pamięci ROM w Linuxie.md",
+    "OWN_NOTES/Proxmox i Linux - rozszerzanie systemów plików opartych o ext.md",
+    "OWN_NOTES/Proxmox - zintegrowana zapora sieciowa.md",
+    "OWN_NOTES/Proxmox - zarządzanie użytkownikami.md",
+    "OWN_NOTES/Proxmox - tworzenie szablonu kontenera LXC.md",
+    "OWN_NOTES/Proxmox - tworzenie szablonów maszyn wirtualnych.md",
+    "OWN_NOTES/Proxmox - tworzenie maszyn wirtualnych.md",
+    "OWN_NOTES/Proxmox - tworzenie kontenerów LXC.md",
+    "TAGS",
     "末 MEDIA/Pasted image 20241222195648.png",
     "MEDIA/Pasted image 20241222190956.png",
-    "Untitled",
     "末 MEDIA/Pasted image 20241222180821.png",
     "末 MEDIA/Pasted image 20241222190755.png",
     "Pasted image 20241222181753.png",
-    "1. PRACA WŁASNA/Proxmox - dodanie dysku jako pamięci.md",
-    "1. PRACA WŁASNA/Proxmox - brak internetu w maszynie stworzonej na podstawie szablonu.md",
-    "1. PRACA WŁASNA/Proxmox - kopie zapasowe i snapshoty.md",
-    "1. PRACA WŁASNA/Proxmox - omówienie interfejsu.md",
-    "1. PRACA WŁASNA/Proxmox - zarządzanie użytkownikami.md",
-    "1. PRACA WŁASNA/Proxmox i Linux - rozszerzanie systemów plików opartych o ext.md",
-    "1. PRACA WŁASNA/Proxmox i Linux - zerowanie dysku i rozszerzanie pamięci ROM w Linuxie.md",
-    "2. UCZELNIA/Bazy danych - wykład 2.md",
-    "2. UCZELNIA/Struktura projektu w C & C++.md",
-    "1. PRACA WŁASNA/Budowa komputera SFF-PC.md",
-    "1. PRACA WŁASNA/Dysk wirtualny.md",
-    "Proxmox - serwer kopii zapasowych (backup server).md",
-    "2. UCZELNIA/Definicje pojęć i określenie problematyki.md",
-    "2. UCZELNIA/Definiowanie marki osobistej.md",
-    "2. UCZELNIA/Podsumowanie badań z pracy.md",
-    "2. UCZELNIA/Wskazówki do budowania marki osobistej.md",
-    "TAGS/KOMUNIKACJA W BIZNESIE.md",
     "末 MEDIA/Pasted image 20241202205435.png",
     "末 MEDIA/Pasted image 20241202210431.png",
     "末 MEDIA/Pasted image 20241202202908.png",

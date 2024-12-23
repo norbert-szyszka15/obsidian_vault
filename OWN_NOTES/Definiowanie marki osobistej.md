@@ -3,7 +3,7 @@ lastSync: Fri Oct 04 2024 18:57:35 GMT+0200 (Central European Summer Time)
 ---
 ---
 Utworzono: 2024-11-09 20:32
-Tagi: [[INFORMATYKA]], [[KOMUNIKACJA W BIZNESIE]]
+Tagi: [[KOMUNIKACJA W BIZNESIE]]
 
 ---
 ### Definiowanie marki osobistej

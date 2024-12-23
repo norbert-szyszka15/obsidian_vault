@@ -3,7 +3,7 @@ lastSync: Fri Oct 04 2024 22:44:23 GMT+0200 (Central European Summer Time)
 ---
 ---
 Utworzono: 2024-10-04 18:41
-Tagi: [[PRYWATNE]]
+Tagi: [[INNE]]
 
 ---
 ### 1. Tabela elementów do nowego komputera

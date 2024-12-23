@@ -8,31 +8,31 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:TAGS  ",
-      "color": {
-        "a": 1,
-        "rgb": 12255487
-      }
-    },
-    {
-      "query": "path:\"1. PRACA WŁASNA\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 65518
-      }
-    },
-    {
-      "query": "path:\"2. UCZELNIA\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 7601920
-      }
-    },
-    {
       "query": "path:TEMPLATES  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 14507871
+      }
+    },
+    {
+      "query": "path:TAGS",
+      "color": {
+        "a": 1,
+        "rgb": 14745855
+      }
+    },
+    {
+      "query": "path:OWN_NOTES ",
+      "color": {
+        "a": 1,
+        "rgb": 65505
+      }
+    },
+    {
+      "query": "path:ACADEMY_NOTES  ",
+      "color": {
+        "a": 1,
+        "rgb": 65280
       }
     }
   ],
@@ -46,6 +46,6 @@
   "repelStrength": 10.0520833333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.47714335792556917,
+  "scale": 0.27694473299705913,
   "close": true
 }

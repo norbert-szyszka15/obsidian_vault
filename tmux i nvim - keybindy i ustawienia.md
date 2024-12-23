@@ -4,7 +4,7 @@ lastSync: Fri Oct 04 2024 18:57:35 GMT+0200 (Central European Summer Time)
 
 ---
 Utworzono: 2024-12-22 19:17
-Tagi: [[INFORMATYKA]], [[PRYWATNE]]
+Tagi: [[INNE]]
 
 ---
 ### **Kopiowanie tekstu w tmux**

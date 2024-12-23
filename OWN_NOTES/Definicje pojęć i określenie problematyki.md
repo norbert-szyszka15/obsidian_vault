@@ -3,7 +3,7 @@ lastSync: Fri Oct 04 2024 18:57:35 GMT+0200 (Central European Summer Time)
 ---
 ---
 Utworzono: 2024-10-16 16:55
-Tagi: [[INFORMATYKA]], [[KOMUNIKACJA W BIZNESIE]]
+Tagi: [[KOMUNIKACJA W BIZNESIE]]
 
 ---
 >*"Developing a personal brand ensures that individuals are not left behind and that they develop the competitive advantage that positions them for the career opportunities they deserve."* (Horton, 2011) 
