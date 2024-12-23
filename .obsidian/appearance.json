@@ -13,5 +13,7 @@
   ],
   "showViewHeader": true,
   "theme": "system",
-  "textFontFamily": "Inter"
+  "textFontFamily": "Inter Variable",
+  "interfaceFontFamily": "Inter Variable",
+  "baseFontSize": 16
 }
