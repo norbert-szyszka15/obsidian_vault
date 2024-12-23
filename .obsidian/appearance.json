@@ -1,0 +1,17 @@
+{
+  "cssTheme": "",
+  "monospaceFontFamily": "FiraCode Nerd Font",
+  "nativeMenus": false,
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "centerImgae",
+    "centerImage",
+    "coloredBold",
+    "coloredBoldItalics",
+    "coloredItalic",
+    "coloredBoldItalic"
+  ],
+  "showViewHeader": true,
+  "theme": "system",
+  "textFontFamily": "Inter"
+}

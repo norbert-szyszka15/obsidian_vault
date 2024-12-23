@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "dfb47db25c00dfd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "14d6c61f3e392744",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77358ffa72f4325a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "0fd9df6e93789966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. PRACA WŁASNA/Proxmox - Command-Line Interface.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proxmox - Command-Line Interface"
+            }
+          },
+          {
+            "id": "1429a15eea440166",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmux i nvim - keybindy i ustawienia.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tmux i nvim - keybindy i ustawienia"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "66b3fb212c764774",
+    "type": "split",
+    "children": [
+      {
+        "id": "681c7a56192f765e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20ae9993167c2b2f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "41c91b818c86832c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "03217fe0d375c801",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 238.5
+  },
+  "right": {
+    "id": "0ba243191059515e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f42bca603b357d97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f8f445b6b52b019",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "327c29e1cff4061e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "INFORMATYKA STUDIA/Wskazówki do budowania marki osobistej.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Wskazówki do budowania marki osobistej"
+            }
+          },
+          {
+            "id": "707787fbfd848a67",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b2806b60e21d7ec8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tmux i nvim - keybindy i ustawienia.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of tmux i nvim - keybindy i ustawienia"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1429a15eea440166",
+  "lastOpenFiles": [
+    "1. PRACA WŁASNA/Proxmox - Command-Line Interface.md",
+    "2. UCZELNIA/Użyteczne komendy Git.md",
+    "tmux i nvim - keybindy i ustawienia.md",
+    "1. PRACA WŁASNA/Proxmox - tworzenie maszyn wirtualnych.md",
+    "1. PRACA WŁASNA/Proxmox - tworzenie szablonów maszyn wirtualnych.md",
+    "1. PRACA WŁASNA/Proxmox - tworzenie szablonu kontenera LXC.md",
+    "1. PRACA WŁASNA/Proxmox - tworzenie kontenerów LXC.md",
+    "1. PRACA WŁASNA/Proxmox - zintegrowana zapora sieciowa.md",
+    "Pasted image 20241222190956.png.md",
+    "末 MEDIA/Pasted image 20241222195648.png",
+    "MEDIA/Pasted image 20241222190956.png",
+    "Untitled",
+    "末 MEDIA/Pasted image 20241222180821.png",
+    "末 MEDIA/Pasted image 20241222190755.png",
+    "Pasted image 20241222181753.png",
+    "1. PRACA WŁASNA/Proxmox - dodanie dysku jako pamięci.md",
+    "1. PRACA WŁASNA/Proxmox - brak internetu w maszynie stworzonej na podstawie szablonu.md",
+    "1. PRACA WŁASNA/Proxmox - kopie zapasowe i snapshoty.md",
+    "1. PRACA WŁASNA/Proxmox - omówienie interfejsu.md",
+    "1. PRACA WŁASNA/Proxmox - zarządzanie użytkownikami.md",
+    "1. PRACA WŁASNA/Proxmox i Linux - rozszerzanie systemów plików opartych o ext.md",
+    "1. PRACA WŁASNA/Proxmox i Linux - zerowanie dysku i rozszerzanie pamięci ROM w Linuxie.md",
+    "2. UCZELNIA/Bazy danych - wykład 2.md",
+    "2. UCZELNIA/Struktura projektu w C & C++.md",
+    "1. PRACA WŁASNA/Budowa komputera SFF-PC.md",
+    "1. PRACA WŁASNA/Dysk wirtualny.md",
+    "Proxmox - serwer kopii zapasowych (backup server).md",
+    "2. UCZELNIA/Definicje pojęć i określenie problematyki.md",
+    "2. UCZELNIA/Definiowanie marki osobistej.md",
+    "2. UCZELNIA/Podsumowanie badań z pracy.md",
+    "2. UCZELNIA/Wskazówki do budowania marki osobistej.md",
+    "TAGS/KOMUNIKACJA W BIZNESIE.md",
+    "末 MEDIA/Pasted image 20241202205435.png",
+    "末 MEDIA/Pasted image 20241202210431.png",
+    "末 MEDIA/Pasted image 20241202202908.png",
+    "末 MEDIA/Pasted image 20241202194929.png",
+    "末 MEDIA/Pasted image 20241202194039.png",
+    "The Importance of Personal Branding_ Uses of Personal Branding fo.pdf",
+    "INFORMATYKA/Wprowadzenie do wskaźników.odt",
+    "末 MEDIA",
+    "TAGS",
+    "DAILY NOTES",
+    "Ink/Writing/2024.10.3 - 13.47pm.writing",
+    "Ink/Writing",
+    "Ink/Drawing/2024.10.3 - 13.48pm.drawing",
+    "Ink/Drawing"
+  ]
+}

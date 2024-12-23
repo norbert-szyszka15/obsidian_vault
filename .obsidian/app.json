@@ -1,0 +1,19 @@
+{
+  "spellcheck": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "strictLineBreaks": false,
+  "propertiesInDocument": "hidden",
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "rightToLeft": false,
+  "showIndentGuide": false,
+  "showRibbon": true,
+  "showInlineTitle": true,
+  "tabSize": 4
+}
