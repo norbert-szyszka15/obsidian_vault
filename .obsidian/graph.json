@@ -22,17 +22,10 @@
       }
     },
     {
-      "query": "path:OWN_NOTES ",
+      "query": "path:NOTES  ",
       "color": {
         "a": 1,
-        "rgb": 65505
-      }
-    },
-    {
-      "query": "path:ACADEMY_NOTES  ",
-      "color": {
-        "a": 1,
-        "rgb": 65280
+        "rgb": 1112499
       }
     }
   ],
@@ -46,6 +39,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.17970594049670557,
+  "scale": 0.13438899249034944,
   "close": true
 }
