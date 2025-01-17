@@ -6,7 +6,7 @@ Utworzono: 2024-10-04 18:41
 Tagi: [[INFORMATYKA]], [[C]], [[C++]]
 
 ---
-### 1. Struktura plików i katalogów projektu
+### 1. **Struktura plików i katalogów projektu**
 
 ```bash
 ~/.../{proj root dir}
@@ -23,7 +23,7 @@ Skrypt w bashu do stworzenia nowej struktury projektu (podkreślony tekst może 
 mkdir -p project{/bin,/include,/lib,/src} && touch project/Makefile project/main.cpp
 ```
 
-### 2. Plik `Makefile`
+### 2. **Plik `Makefile`**
 
 W celu zbudowania i skompilowania projektu jako całości, w katalogu projektu musi znajdować się plik `Makefile` zawierający następującą zawartość:
 ```Makefile
@@ -50,6 +50,33 @@ $(BIN)/$(EXECUTABLE): $(SRC)/*.cpp main.cpp
 clean:
 	-rm $(BIN)/*
 ```
+<br>
+W celu zbudowania i skompilowania projektu, w którym znajdować się będzie więcej niż jeden program, a co za tym idzie także więcej niż jeden plik wykonywalny, zawartość pliku `Makefile` należy zmodyfikować do następującej postaci:
+
+```Makefile
+CXX       := g++
+CXX_FLAGS := -std=c++17 -ggdb
+
+BIN     := bin
+SRC     := .
+INCLUDE := include
+
+LIBRARIES   :=
+EXECUTABLES := main1 main2 main3
+
+all: $(addprefix $(BIN)/, $(EXECUTABLES))
+
+run: clean all
+	clear
+	@for exec in $(EXECUTABLES); do ./$(BIN)/$$exec; done
+
+$(BIN)/%: $(SRC)/%.cpp
+	$(CXX) $(CXX_FLAGS) -I$(INCLUDE) $^ -o $@ $(LIBRARIES)
+
+clean:
+	-rm -f $(BIN)/*
+```
+
 
 ==UWAGA:== W celu zbudowania projektu w języku C zamiast C++, należy rozszerzenia plików w linijce
 ```Makefile
@@ -60,13 +87,13 @@ w następujący sposób:
 $(BIN)/$(EXECUTABLE): $(SRC)/*.c main.c
 ```
 
-### 3. Budowanie projektu po wprowadzeniu zmian
+### 3. **Budowanie projektu po wprowadzeniu zmian**
 
 By zbudować projekt po wprowadzeniu do niego zmian, należy użyć komendy `make` w terminalu, znajdując się w korzeniu struktury katalogów projektu.
 
 ==UWAGA:== Jeżeli komenda `make` zwraca kod błędu o treści `Makefile:(line number): *** missing separator. Stop.`, należy zwrócić uwagę by w pliku `Makefile` użyć komendy `>Convert Identations to Tabs` w celu zamiany znaków spacji na znaki tabulacji.
 
-###  4. `tasks.json` - setup zadań budowania projektu w VS Code
+###  4. **`tasks.json` - setup zadań budowania projektu w VS Code**
 
 W celu stworzenia zadań budowania projektu w VS Code, należy użyć skrótu klawiszowego `ctrl+shift+b` kiedy żadne okna edytora nie są otwarte, a potem kolejno:
 - wybrać opcję `Configure Build task`,
@@ -92,7 +119,7 @@ W tym momencie powinien zostać utworzony nowy plik `tasks.json`, którego zawar
 }
 ```
 
-### 5. `launch.json` - ustawianie GDB jako domyślnego debuggera
+### 5. **`launch.json` - ustawianie GDB jako domyślnego debuggera**
 
 W celu dodania konfiguracji debuggera, należy wcisnąć klawisz `F5`, a następnie wybrać opcję `C/C++` w wyskakującym okienku. W ten sposób w katalogu projektu wygenerowany zostanie plik `launch.json`, do którego należy wkleić poniższy kod:
 ```json

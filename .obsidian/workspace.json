@@ -18,37 +18,202 @@
             }
           },
           {
-            "id": "f6a1a6bfa41ae99f",
+            "id": "39b4636e5bc6dbb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pipe() System call.md",
+                "file": "wait().md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pipe() System call"
+              "title": "wait()"
             }
           },
           {
-            "id": "8b8dcd2f021efdb4",
+            "id": "76f0d206b7d790d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmux i nvim - keybindy i ustawienia.md",
+                "file": "NOTES/Procesy w Linuxie.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmux i nvim - keybindy i ustawienia"
+              "title": "Procesy w Linuxie"
+            }
+          },
+          {
+            "id": "850b0779b2d44809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alarm().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "alarm()"
+            }
+          },
+          {
+            "id": "8eac3e0ffcec260e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pause().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pause()"
+            }
+          },
+          {
+            "id": "c09353246e7de3d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "signal().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "signal()"
+            }
+          },
+          {
+            "id": "a91f0f0ff505c695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exit().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "exit()"
+            }
+          },
+          {
+            "id": "0cbcda9075f9df32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sleep().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sleep()"
+            }
+          },
+          {
+            "id": "74e1bc59568ed347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "getpid() i getppid().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "getpid() i getppid()"
+            }
+          },
+          {
+            "id": "b135ade9d7ac387c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "clone().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clone()"
+            }
+          },
+          {
+            "id": "d80466e1534aa268",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kill().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kill()"
+            }
+          },
+          {
+            "id": "19ab61c51c533d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "perror().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "perror()"
+            }
+          },
+          {
+            "id": "ce05a64dc0ba756e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exec.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "exec"
+            }
+          },
+          {
+            "id": "1392de3ceef640a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fork().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fork()"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -165,10 +330,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmux i nvim - keybindy i ustawienia.md"
+                "file": "NOTES/Procesy w Linuxie.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of tmux i nvim - keybindy i ustawienia"
+              "title": "Outline of Procesy w Linuxie"
             }
           },
           {
@@ -199,36 +364,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "38bee24d7eaf59eb",
+  "active": "1392de3ceef640a8",
   "lastOpenFiles": [
-    "pipe() System call.md",
+    "fork().md",
+    "Untitled.md",
+    "NOTES/Procesy w Linuxie.md",
+    "NOTES/Współbieżne wykonywanie się procesów względem siebie.md",
+    "NOTES/Sekwencyjne wykonywanie się procesów względem siebie.md",
+    "wait().md",
+    "exec.md",
+    "perror().md",
+    "kill().md",
+    "clone().md",
+    "getpid() i getppid().md",
+    "sleep().md",
+    "exit().md",
+    "signal().md",
+    "pause().md",
+    "alarm().md",
+    "getpid().md",
+    "exec().md",
     "tmux i nvim - keybindy i ustawienia.md",
+    "Lab_3_SO.pdf",
+    "pipe() System call.md",
+    "NOTES/Struktura projektu w C & C++.md",
+    "NOTES/Proxmox i Linux - rozszerzanie systemów plików opartych o ext.md",
+    "NOTES/Budowa komputera SFF-PC.md",
     "NOTES/Proxmox - zintegrowana zapora sieciowa.md",
     "NOTES/Bazy danych - wykład 1.md",
     "TAGS/LINUX.md",
-    "NOTES/Błąd o identyfikacji hosta SSH.md",
     "NOTES",
-    "TAGS/SERWER.md",
-    "TAGS/KOMUNIKACJA W BIZNESIE.md",
-    "TAGS/INNE.md",
-    "TAGS/INFORMATYKA.md",
-    "TAGS/C++.md",
-    "TAGS/C.md",
     "末 - MEDIA/Pasted image 20241222180821.png",
-    "README.md",
-    "NOTES/Proxmox - Command-Line Interface.md",
-    "Użyteczne komendy Git.md",
-    "TAGS/BAZY DANYCH.md",
-    "NOTES/Wprowadzenie do wskaźników.md",
-    "Proxmox - serwer kopii zapasowych (backup server).md",
-    "NOTES/Definicje pojęć i określenie problematyki.md",
-    "NOTES/Budowa komputera SFF-PC.md",
-    "Proxmox - współużytkowana pamięć masowa (shared storage).md",
-    "NOTES/Thin Pool.md",
-    "NOTES/Struktura projektu w C & C++.md",
-    "NOTES/Skróty klawiszowe Obsidian.md",
-    "NOTES/Proxmox i Linux - zerowanie dysku i rozszerzanie pamięci ROM w Linuxie.md",
-    "NOTES/Proxmox i Linux - rozszerzanie systemów plików opartych o ext.md",
     "TAGS",
     "末 - MEDIA/Pasted image 20241222195648.png",
     "MEDIA/Pasted image 20241222190956.png",
@@ -245,7 +411,6 @@
     "TAGS",
     "DAILY NOTES",
     "Ink/Writing/2024.10.3 - 13.47pm.writing",
-    "Ink/Writing",
-    "Ink/Drawing/2024.10.3 - 13.48pm.drawing"
+    "Ink/Writing"
   ]
 }

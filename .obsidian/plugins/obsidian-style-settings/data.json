@@ -1,0 +1,10 @@
+{
+  "com-github-birneee-obsidian-adwaita@@adwaita-mod": "adwaita-mod-linux-only",
+  "com-github-birneee-obsidian-adwaita@@adwaita-window-button-minimize-hide": false,
+  "com-github-birneee-obsidian-adwaita@@adwaita-window-button-maximize-hide": false,
+  "com-github-birneee-obsidian-adwaita@@adwaita-tabs-short": false,
+  "com-github-birneee-obsidian-adwaita@@adwaita-tabs": "adwaita-tabs-never",
+  "com-github-birneee-obsidian-adwaita@@adwaita-colors": "adwaita-colors-never",
+  "com-github-birneee-obsidian-adwaita@@adwaita-font": "adwaita-font-never",
+  "com-github-birneee-obsidian-adwaita@@adwaita-icon": "adwaita-icons-always"
+}

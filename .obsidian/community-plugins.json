@@ -3,5 +3,7 @@
   "solve",
   "obsidian-pandoc",
   "obsidian-hotkeys-for-templates",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-style-settings",
+  "execute-code"
 ]
