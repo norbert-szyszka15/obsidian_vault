@@ -1,9 +1,9 @@
 [
   "dataview",
   "solve",
-  "obsidian-pandoc",
   "obsidian-hotkeys-for-templates",
   "obsidian-git",
-  "obsidian-style-settings",
-  "execute-code"
+  "execute-code",
+  "vertical-tabs",
+  "obsidian-style-settings"
 ]

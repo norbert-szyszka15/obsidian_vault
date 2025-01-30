@@ -22,23 +22,23 @@
       }
     },
     {
-      "query": "path:NOTES  ",
+      "query": "path:INFORMATYKA  ",
       "color": {
         "a": 1,
         "rgb": 1112499
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "nodeSizeMultiplier": 1.01875,
+  "lineSizeMultiplier": 1.01875,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4474739592235043,
+  "scale": 0.059326171875,
   "close": true
 }

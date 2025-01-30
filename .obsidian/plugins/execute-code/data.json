@@ -1,5 +1,5 @@
 {
-  "lastOpenLanguageTab": "c",
+  "lastOpenLanguageTab": "cpp",
   "releaseNote2_0_0wasShowed": true,
   "persistentOuput": false,
   "timeout": 10000,
@@ -69,7 +69,7 @@
   "cppInject": "",
   "cppArgs": "",
   "cppUseMain": false,
-  "clingPath": "/run/host/usr/lib64/ccache/gcc",
+  "clingPath": "/usr/lib64/ccache/gcc",
   "clingArgs": "",
   "clingStd": "c++17",
   "rustFileExtension": "rs",

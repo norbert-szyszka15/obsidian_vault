@@ -1,6 +1,6 @@
 {
   "cssTheme": "Adwaita",
-  "monospaceFontFamily": "FiraCode Nerd Font",
+  "monospaceFontFamily": "JetBrains Mono",
   "nativeMenus": false,
   "accentColor": "",
   "enabledCssSnippets": [
@@ -15,5 +15,6 @@
   "theme": "system",
   "textFontFamily": "Inter Variable",
   "interfaceFontFamily": "Inter Variable",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "baseFontSizeAction": false
 }

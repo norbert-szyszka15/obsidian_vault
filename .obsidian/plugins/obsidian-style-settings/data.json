@@ -6,5 +6,6 @@
   "com-github-birneee-obsidian-adwaita@@adwaita-tabs": "adwaita-tabs-never",
   "com-github-birneee-obsidian-adwaita@@adwaita-colors": "adwaita-colors-never",
   "com-github-birneee-obsidian-adwaita@@adwaita-font": "adwaita-font-never",
-  "com-github-birneee-obsidian-adwaita@@adwaita-icon": "adwaita-icons-always"
+  "com-github-birneee-obsidian-adwaita@@adwaita-icon": "adwaita-icons-always",
+  "com-github-birneee-obsidian-adwaita@@adwaita-window-button-close-hide": false
 }

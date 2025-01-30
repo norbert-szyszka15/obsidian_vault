@@ -8,187 +8,403 @@
         "type": "tabs",
         "children": [
           {
-            "id": "868f742863e5056e",
+            "id": "d032cda3a1dd72c2",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Wątki w Linuxie.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wątki w Linuxie"
+            }
+          },
+          {
+            "id": "0334687243011949",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/Problem producenta i konsumenta.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problem producenta i konsumenta"
+            }
+          },
+          {
+            "id": "6c110e83e0cb0d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/Problem czytelników i pisarzy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problem czytelników i pisarzy"
+            }
+          },
+          {
+            "id": "cb4117c5f84d782c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Problem pięciu filozofów.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problem pięciu filozofów"
+            }
+          },
+          {
+            "id": "1b6c29864789199c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "39b4636e5bc6dbb0",
+            "id": "86bcca79cd65a45f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wait().md",
+                "file": "NOTES/pthread_create().md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wait()"
+              "title": "pthread_create()"
             }
           },
           {
-            "id": "76f0d206b7d790d1",
+            "id": "4293bd9028cd151f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/Procesy w Linuxie.md",
+                "file": "NOTES/pthread_t.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Procesy w Linuxie"
+              "title": "pthread_t"
             }
           },
           {
-            "id": "850b0779b2d44809",
+            "id": "9934d89e7393dd92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alarm().md",
+                "file": "NOTES/Bariery.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "alarm()"
+              "title": "Bariery"
             }
           },
           {
-            "id": "8eac3e0ffcec260e",
+            "id": "23ec15d0ebf22634",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pause().md",
+                "file": "Przekazywanie wartości do rutyny wątków.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pause()"
+              "title": "Przekazywanie wartości do rutyny wątków"
             }
           },
           {
-            "id": "c09353246e7de3d0",
+            "id": "c350f00713017ada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "signal().md",
+                "file": "Podstawy zwracania wartości przez wątki.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "signal()"
+              "title": "Podstawy zwracania wartości przez wątki"
             }
           },
           {
-            "id": "a91f0f0ff505c695",
+            "id": "2b7ea1b33efa5cb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exit().md",
+                "file": "NOTES/Semafory.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "exit()"
+              "title": "Semafory"
             }
           },
           {
-            "id": "0cbcda9075f9df32",
+            "id": "bcd91c1ded6fc0ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sleep().md",
+                "file": "NOTES/Prosty praktyczny przykład zastosowania semaforów.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sleep()"
+              "title": "Prosty praktyczny przykład zastosowania semaforów"
             }
           },
           {
-            "id": "74e1bc59568ed347",
+            "id": "7be3c026da85fa7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "getpid() i getppid().md",
+                "file": "NOTES/sem_wait().md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "getpid() i getppid()"
+              "title": "sem_wait()"
             }
           },
           {
-            "id": "b135ade9d7ac387c",
+            "id": "01e923de4dc8a3a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clone().md",
+                "file": "NOTES/sem_post().md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "clone()"
+              "title": "sem_post()"
             }
           },
           {
-            "id": "d80466e1534aa268",
+            "id": "2aa3e88eb5c63ae9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kill().md",
+                "file": "NOTES/Mutexy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kill()"
+              "title": "Mutexy"
             }
           },
           {
-            "id": "19ab61c51c533d05",
+            "id": "efad95925216ee5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "perror().md",
+                "file": "NOTES/Deadlock.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "perror()"
+              "title": "Deadlock"
             }
           },
           {
-            "id": "ce05a64dc0ba756e",
+            "id": "a941f13780c90987",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exec.md",
+                "file": "NOTES/Mutexy rekurencyjne.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mutexy rekurencyjne"
+            }
+          },
+          {
+            "id": "2c3953a65e88ff30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/pthread_exit().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_exit()"
+            }
+          },
+          {
+            "id": "1139fb8856f29e6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/pthread_mutex_trylock().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_mutex_trylock()"
+            }
+          },
+          {
+            "id": "ba66656aad9f9022",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Zmienne warunkowe w C.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zmienne warunkowe w C"
+            }
+          },
+          {
+            "id": "a7bc56ecda17b184",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Struktura projektu w C & C++.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Struktura projektu w C & C++"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e2530d6d32a3527c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16bf3988d45c7fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/pthread_attr_setdetachstate().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_attr_setdetachstate()"
+            }
+          },
+          {
+            "id": "102cf60dd4bf685b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/pthread_detach().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_detach()"
+            }
+          },
+          {
+            "id": "a4d3db0d8afcd6a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/Nieprzezroczyste typy danych (opaque data types).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nieprzezroczyste typy danych (opaque data types)"
+            }
+          },
+          {
+            "id": "f555d644d71d3067",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/pthread_mutexattr_init().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_mutexattr_init()"
+            }
+          },
+          {
+            "id": "349c2bcb47ed9150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/pthread_mutexattr_settype().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_mutexattr_settype()"
+            }
+          },
+          {
+            "id": "503dc3a7f40638ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/exec.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -198,22 +414,82 @@
             }
           },
           {
-            "id": "1392de3ceef640a8",
+            "id": "3a5667a0477b1efe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fork().md",
+                "file": "NOTES/Użyteczne komendy Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fork()"
+              "title": "Użyteczne komendy Git"
+            }
+          },
+          {
+            "id": "ea5e19687ebda153",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/tmux i nvim - keybindy i ustawienia.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tmux i nvim - keybindy i ustawienia"
+            }
+          },
+          {
+            "id": "f6f64cdad4282710",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/Proxmox - serwer kopii zapasowych (backup server).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proxmox - serwer kopii zapasowych (backup server)"
+            }
+          },
+          {
+            "id": "ff49e4db99a7f3ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NOTES/Proxmox - współużytkowana pamięć masowa (shared storage).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proxmox - współużytkowana pamięć masowa (shared storage)"
+            }
+          },
+          {
+            "id": "74f180cd8b175542",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Makefile.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Makefile"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -225,6 +501,7 @@
       {
         "id": "681c7a56192f765e",
         "type": "tabs",
+        "dimension": 31.979166666666664,
         "children": [
           {
             "id": "20ae9993167c2b2f",
@@ -244,7 +521,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "projek",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -253,6 +530,23 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5c7521164c368133",
+        "type": "tabs",
+        "dimension": 68.02083333333333,
+        "children": [
+          {
+            "id": "a77766e8ff4f2c31",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "gallery-vertical",
+              "title": "Vertical tabs"
             }
           },
           {
@@ -263,52 +557,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 238.5
-  },
-  "right": {
-    "id": "0ba243191059515e",
-    "type": "split",
-    "children": [
-      {
-        "id": "f42bca603b357d97",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6f8f445b6b52b019",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "327c29e1cff4061e",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "INFORMATYKA STUDIA/Wskazówki do budowania marki osobistej.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Wskazówki do budowania marki osobistej"
             }
           },
           {
@@ -323,17 +571,30 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5
+  },
+  "right": {
+    "id": "0ba243191059515e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f42bca603b357d97",
+        "type": "tabs",
+        "dimension": 45.66301096709871,
+        "children": [
           {
-            "id": "b2806b60e21d7ec8",
+            "id": "868f742863e5056e",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "NOTES/Procesy w Linuxie.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Procesy w Linuxie"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -347,11 +608,61 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
+      },
+      {
+        "id": "97fe4e919779ad08",
+        "type": "tabs",
+        "dimension": 54.33698903290129,
+        "children": [
+          {
+            "id": "b2806b60e21d7ec8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "327c29e1cff4061e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "INFORMATYKA/Wątki w Linuxie.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Wątki w Linuxie"
+            }
+          },
+          {
+            "id": "6f8f445b6b52b019",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "INFORMATYKA/Wątki w Linuxie.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Wątki w Linuxie"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -364,53 +675,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1392de3ceef640a8",
+  "active": "a77766e8ff4f2c31",
   "lastOpenFiles": [
-    "fork().md",
-    "Untitled.md",
-    "NOTES/Procesy w Linuxie.md",
-    "NOTES/Współbieżne wykonywanie się procesów względem siebie.md",
-    "NOTES/Sekwencyjne wykonywanie się procesów względem siebie.md",
-    "wait().md",
-    "exec.md",
-    "perror().md",
-    "kill().md",
-    "clone().md",
-    "getpid() i getppid().md",
-    "sleep().md",
-    "exit().md",
-    "signal().md",
-    "pause().md",
-    "alarm().md",
-    "getpid().md",
-    "exec().md",
-    "tmux i nvim - keybindy i ustawienia.md",
-    "Lab_3_SO.pdf",
-    "pipe() System call.md",
-    "NOTES/Struktura projektu w C & C++.md",
-    "NOTES/Proxmox i Linux - rozszerzanie systemów plików opartych o ext.md",
-    "NOTES/Budowa komputera SFF-PC.md",
-    "NOTES/Proxmox - zintegrowana zapora sieciowa.md",
-    "NOTES/Bazy danych - wykład 1.md",
-    "TAGS/LINUX.md",
-    "NOTES",
-    "末 - MEDIA/Pasted image 20241222180821.png",
-    "TAGS",
+    "INFORMATYKA/Wątki w Linuxie.md",
+    "INFORMATYKA/Struktura projektu w C & C++.md",
+    "INFORMATYKA/Zmienne warunkowe w C.md",
+    "INFORMATYKA/Makefile.md",
+    "INFORMATYKA/Problem pięciu filozofów.md",
+    "INFORMATYKA/Budowa komputera SFF-PC.md",
+    "INFORMATYKA/Problem czytelników i pisarzy.md",
+    "INFORMATYKA/Problem producenta i konsumenta.md",
+    "NOTES/Problem czytelników i pisarzy.docx",
+    "NOTES/Problem czytelników i pisarzy.odt",
+    "INFORMATYKA/tmux i nvim - keybindy i ustawienia.md",
+    "末 - MEDIA/Pasted image 20250124220119.png",
+    "INFORMATYKA/Wątki odłączone.md",
+    "INFORMATYKA/Przekazywanie wartości do rutyny wątków.md",
+    "INFORMATYKA/Podstawy zwracania wartości przez wątki.md",
+    "INFORMATYKA/Użyteczne komendy Git.md",
+    "INFORMATYKA/Proxmox - współużytkowana pamięć masowa (shared storage).md",
+    "INFORMATYKA/Proxmox - serwer kopii zapasowych (backup server).md",
+    "INFORMATYKA/exec.md",
+    "末 - MEDIA/Pasted image 20250124162000.png",
+    "末 - MEDIA/Pasted image 20250124161207.png",
+    "末 - MEDIA/Pasted image 20250124155826.png",
+    "末 - MEDIA/Pasted image 20250124155617.png",
+    "末 - MEDIA/Pasted image 20250124161044.png",
+    "INFORMATYKA/Bariery.md",
+    "INFORMATYKA/pthread_create().md",
+    "INFORMATYKA/Prosty praktyczny przykład zastosowania semaforów.md",
+    "INFORMATYKA/Semafory.md",
+    "INFORMATYKA/sem_wait().md",
+    "INFORMATYKA/sem_post().md",
+    "INFORMATYKA/Mutexy.md",
+    "INFORMATYKA/Mutexy rekurencyjne.md",
+    "INFORMATYKA/Deadlock.md",
+    "INFORMATYKA/pthread_mutexattr_settype().md",
+    "末 - MEDIA/Pasted image 20250124111247.png",
+    "末 - MEDIA/Pasted image 20250124002104.png",
     "末 - MEDIA/Pasted image 20241222195648.png",
-    "MEDIA/Pasted image 20241222190956.png",
     "末 - MEDIA/Pasted image 20241222190755.png",
-    "Pasted image 20241222181753.png",
-    "末 - MEDIA/Pasted image 20241202205435.png",
-    "末 - MEDIA/Pasted image 20241202210431.png",
-    "末 - MEDIA/Pasted image 20241202202908.png",
-    "末 - MEDIA/Pasted image 20241202194929.png",
-    "末 - MEDIA/Pasted image 20241202194039.png",
+    "Lab_3_SO.pdf",
+    "INFORMATYKA",
+    "TAGS",
     "The Importance of Personal Branding_ Uses of Personal Branding fo.pdf",
     "INFORMATYKA/Wprowadzenie do wskaźników.odt",
     "末 - MEDIA",
     "TAGS",
-    "DAILY NOTES",
-    "Ink/Writing/2024.10.3 - 13.47pm.writing",
-    "Ink/Writing"
+    "DAILY NOTES"
   ]
 }
