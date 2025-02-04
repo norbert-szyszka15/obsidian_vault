@@ -6,7 +6,9 @@ Tagi: [[INFORMATYKA]], [[LINUX]], [[C]]
 ---
 
 ### **System call `wait()` w języku C**
-Wywołanie metody `wait()` w kodzie procesu powoduje zatrzymanie jego dalszego wykonania do momentu, kiedy jego proces potomny zostanie zakończony lub zostanie otrzymany odpowiedni sygnał. Po zakończeniu się procesu potomnego, rodzic kontynuuje wykonywanie tuż po wywołaniu system calla `wait()`.
+Wywołanie metody `wait()` w kodzie procesu powoduje zatrzymanie jego dalszego wykonania do momentu, kiedy jego proces potomny zostanie zakończony lub zostanie otrzymany odpowiedni sygnał. Po zakończeniu się procesu potomnego, rodzic kontynuuje wykonywanie tuż po wywołaniu system calla `wait()`. Funkcja ta czeka na zakończenie się **tylko jednego procesu potomnego**, a jeżeli tych jest więcej niż jeden, system call **zostaje wywołany przez dziecko, które jako pierwsze zakończyło swoje działanie**.
+
+Poprawne wywołanie tego system calla powinno być zaimplementowanie w kodzie w taki sposób, że funkcja zostaje wywołana tylko w procesie rodzicielskim względem procesu potomnego, który został stworzony przez uprzednie wywołanie system calla [[fork()]]. Innymi słowy, `wait()` powinien być wywoływany wtedy, kiedy wartość typu `pid_t` zwrócona przez [[fork()]] wynosi wartość większą od zera (PID procesu potomnego).
 
 Syntax w języku C wygląda następująco:
 

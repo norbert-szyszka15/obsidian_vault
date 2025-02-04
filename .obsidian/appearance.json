@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Adwaita",
+  "cssTheme": "",
   "monospaceFontFamily": "JetBrains Mono",
   "nativeMenus": false,
   "accentColor": "",
@@ -16,5 +16,6 @@
   "textFontFamily": "Inter Variable",
   "interfaceFontFamily": "Inter Variable",
   "baseFontSize": 16,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "showRibbon": true
 }

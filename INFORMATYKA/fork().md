@@ -6,7 +6,11 @@ Tagi: [[INFORMATYKA]], [[LINUX]], [[C]]
 ---
 
 ### **Zastosowanie, parametry i wartości zwracane**
-Funkcja `fork()` w systemach Linux służy do utworzenia procesu zwanego procesem potomnym, który działa współbieżnie do procesu-rodzica. Po utworzeniu potomka, oba procesy wykonują kolejne instrukcje, zapisane po funkcji `fork()`. Proces potomny wykorzystuje te same rejestry i otwarte pliki, co proces-rodzic. Funkcja nie pobiera żadnych parametrów i zwraca wartość integer.
+Funkcja `fork()` w systemach Linux służy do utworzenia procesu zwanego procesem potomnym, który działa współbieżnie do procesu-rodzica. Po utworzeniu potomka, oba procesy wykonują kolejne instrukcje, zapisane po funkcji `fork()`. Proces potomny wykorzystuje te same rejestry i otwarte pliki, co proces-rodzic. Funkcja nie pobiera żadnych parametrów i zwraca wartość integer. By użyć funkcji `fork()`, należy załączyć w pliku bibliotekę `<unistd.h>`.
+
+System call `fork()` właściwie tworzy kopię procesu rodzicielskiego.
+
+==UWAGA==: brak poczekania na zakończenie się procesów potomnych do procesu rodzica za każdym razem spowoduje [[Wyciek pamięci - memory leak]]! W związku z tym każdy program wywołujący w którymś momencie swojego działania system call `fork()` pod koniec musi także zawierać odwołanie do system calla [[wait()]]. Dopiero to spowoduje poprawne wyczyszczenie pamięci w momencie zakończenia programu i zapobiegnie wyciekowi pamięci. Jedną z wartości zwracanych przez funkcję [[wait()]] jest PID potomka, który zakończył swoje wykonywanie się i na który czekaliśmy.
 
 Syntax system calla `fork()`:
 
@@ -19,7 +23,7 @@ pid_t fork();
 
 Wartości zwracane przez funkcję `fork()`:
 - **Wartość negatywna** (najczęściej -1) - utworzenie procesu potomnego zakończyło się niepowodzeniem,
-- **0** - wartość zwracana do świeżo utworzonego procesu,
+- **0** - wartość zwracana do świeżo utworzonego procesu potomnego,
 - **Wartość pozytywna** (PID nowo powstałego procesu) - wartość zwracana do procesu rodzicielskiego.
 
 ---
@@ -47,7 +51,7 @@ int main() {
 ```
 
 ---
-### **Przykład nr 2**
+### **Przykład nr 2 - wielokrotne wywołania funkcji `fork()`**
 
 ```c
 #include <stdio.h>
@@ -63,7 +67,26 @@ int main() {
 }
 ```
 
-Całkowita liczba wypisań słowa "hello" na ekran jest równa ilości utworzonych procesów. **Całkowita liczba utworzonych przez program procesów jest równa $L_{p} = 2^n$**, gdzie $n$ to liczba użytych w kodzie system calli `fork()`. 
+Całkowita liczba wypisań słowa "hello" na ekranie jest równa ilości utworzonych procesów. **Całkowita liczba utworzonych przez program procesów jest równa $L_{p} = 2^n$**, gdzie $n$ to liczba użytych w kodzie system calli `fork()`.
+
+Jeżeli chcemy stworzyć nieparzystą liczbę procesów, np. 3 procesy, logika programu może wyglądać następująco: po pierwszym wywołaniu funkcji `fork()` powinna się znajdować instrukcja `if` sprawdzająca, czy proces jest procesem głównym. Jeżeli tak, nastąpi ponownie wywołanie funkcji `fork()`. Przykład:
+
+```c
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+int main() {
+    pid_t id =  fork();
+    if (id != 0) {
+	    fork();
+    }
+    printf("hello\n");
+    return 0;
+}
+```
+
+Po więcej przykładów odnośnie tworzenia wielu procesów, wyjaśnienia logiki ich powstawania i rysowania drzewa procesów, patrz [[Wielokrotne wywołania system calla fork()]].
 
 ---
 ### **Przykład nr 3**
@@ -132,6 +155,10 @@ int main() {
 W tym programie, zmiana zmiennej globalnej w jednym procesie w żadne sposób nie wpływa na dwa pozostałe procesy, ponieważ zestaw danych i stan tych dwóch procesów jest inny i niezależny od procesu nr 1. Dodatkowo, dziecko i rodzic działają w tym samym czasie, więc możliwe są dwa wyjścia.
 
 ---
+### **Więcej przykładów i przykład praktyczny**
+Po więcej informacji i przykład praktyczny zastosowania procesów wraz z mechanizmami komunikacji między nimi, m.in. [[Komunikacja międzyprocesowa z wykorzystaniem potoków (pipe)]], patrz: [[Prosty praktyczny przykład zastosowania procesów i potoków nienazwanych]].
+
+---
 
 ### **`fork()` vs [[exec]]**
 System call `fork()` tworzy nowy proces, który jest kopią obecnie działającego procesu, z wyjątkiem wartości zwracanej. Rodzina system calli ``exec`` zastępuje obecnie uruchomiony proces zupełnie nowym programem. 
@@ -140,3 +167,4 @@ System call `fork()` tworzy nowy proces, który jest kopią obecnie działające
 ---
 ## Źródła i odniesienia:
 - https://www.geeksforgeeks.org/fork-system-call/
+- https://www.youtube.com/watch?v=PZrQ4eGm-hM&list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY&index=6

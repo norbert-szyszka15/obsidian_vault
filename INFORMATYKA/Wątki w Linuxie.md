@@ -13,6 +13,8 @@ Wątki, podobnie jak procesy, umożliwiają współbieżną realizację czynnoś
 
 Nowe wątki tworzone są zawsze w obrębie istniejącego procesu. Każdy wątek współdzieli zasoby z innymi wątkami działającymi w ramach tego samego procesu. Jednym z tych zasobów jest przestrzeń adresowa, dzięki czemu nie trzeba dodatkowych zabiegów, aby zrealizować pamięć dzieloną, jest ona po prostu domyślnie dostępna. Z drugiej strony wymusza to ostrożne korzystanie ze zmiennych, które nie są lokalne. Współdzielenie zasobów eliminuje konieczność ich ochrony przed wątkami, a więc zmniejsza ilość informacji, jaką trzeba zapamiętać przy przełączaniu kontekstu, redukując tym samym ilość czasu, jaką trzeba poświęcić na tę czynność. Z tego względu wątki są czasem określanie mianem "lekkich procesów". Wątek jest mniejszą, czyli bardziej **drobnoziarnistą**, jednostką pracy niż proces.
 
+Kolejnymi istotnymi elementami programów, które są wielowątkowe, i wielowątkowości samej w sobie są [[Różnice między równoległością i współbieżnością]]. 
+
 [[Prosty praktyczny przykład zastosowania wątków]].
 
 ---

@@ -45,7 +45,7 @@ network:
 
 Aby sprawdzić, jaki adres MAC jest przypisany do interfejsu sieciowego maszyny wirtualnej, należy:
 1. Wybrać maszynę wirtualną,
-2. Przejść do zakładki **Hardware** i znaleźć interfejs sieciowy (np. **Network Device** lub **VirtIO NIC**),
+2. Przejść do zakładki **Hardware** i znaleźć interfejs sieciowy (np. **Network Device** lub [**VirtIO]() NIC**),
 3. Kliknąć tę pozycję, aby wyświetlić szczegóły, pośród których będzie znajdował się adres MAC przypisany do maszyny.
 
 ##### Krok 3: zaktualizuj konfigurację w systemie operacyjnym

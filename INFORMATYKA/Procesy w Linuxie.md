@@ -1,5 +1,9 @@
 ---
 lastSync: Fri Oct 04 2024 18:57:35 GMT+0200 (Central European Summer Time)
+review-frequency: high
+sr-due: 2025-02-02
+sr-interval: 3
+sr-ease: 250
 ---
 
 ---
@@ -20,8 +24,6 @@ Do wyświetlania listy procesów w Linuxie służy komenda `ps`. Tabela niektór
 | `ps -e`          | Wszystkie parametry procesu   |
 | `ps -u username` | Procesy użytkownika username  |
 | `ps -o format`   | Parametry procesu wg format   |
-
-<br>
 
 Tabela przedstawiająca wybrane parametry procesu:
 
@@ -103,7 +105,16 @@ Tworzenie większej ilości procesów potomnych można podzielić na dwa główn
 - [[Współbieżne wykonywanie się procesów względem siebie]].
 
 ---
+### **Potoki nienazwane**
+Potoki są formą komunikacji między procesami opartą na zasadach podobnych, co posługiwanie się plikami. Potok jest właściwie czymś na kształt pliku, który jest tworzony w pamięci komputera na czas działania programu, i do którego procesy mogą czytać i zapisywać dane. Do oprogramowywania potoków służą funkcje:
+- [[pipe()]] - utworzenie potoku i przypisanie mu deskryptorów plikowych,
+- [[write()]] - zapis danych do potoku,
+- [[read()]] - odczyt danych z potoku nienazwanego,
+- [[close()]] - zamknięcie wskazanego deskryptora pliku.
 
+Więcej informacji w notatce [[Komunikacja międzyprocesowa z wykorzystaniem potoków (pipe)]].
+
+---
 ### **Sygnały**
 Sygnały można uznać za prostą formę komunikacji między procesami, ale głównie służą do poinformowania procesu, że nastąpiło jakieś zdarzenie (stąd pochodzi ich druga nazwa, **przerwy programowe**). Sygnały są asynchroniczne względem wykonania procesu, czyli nie można przewidzieć, kiedy się pojawią. Mogą być wysłane z jądra lub z innego procesu. Funkcja [[kill()]] umożliwia wysłanie sygnału do procesu o podanym PID. Każdy proces posiada strukturę, w której umieszczone są adresy procedur obsługi sygnałów. Jeżeli nie zostanie napisana żadna funkcja obsługująca dany sygnał, wykonywana jest procedura domyślna, która najczęściej powoduje natychmiastowe zakończenie procesu. Część sygnałów można zignorować lub zablokować je na określony czas. Istnieją sygnały, których nie można ani obsłużyć przy pomocy własnej funkcji, ani zignorować, ani zablokować, a przykładem takiego sygnału jest np. `sigkill`.
 
@@ -122,7 +133,6 @@ Sygnały można uznać za prostą formę komunikacji między procesami, ale gł
 - [[pause()]] - powoduje, że proces czeka na otrzymanie sygnału,
 - [[alarm()]] - pozwala ustawić czas, po którym proces dostanie sygnał `sigalrm`,
 - [[perror()]] - wypisuje na ekran komunikat związany z ostatnim napotkanym wyjątkiem pochodzącym od funkcji systemowej.
-
 
 
 

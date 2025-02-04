@@ -129,6 +129,29 @@ Analogicznie, gdyby w powyższym kodzie semafor został zainicjalizowany wartoś
 
 ##### Przykład 3 - [[Prosty praktyczny przykład zastosowania semaforów]]
 
+--- 
+### **Zwracanie wartości semafora**
+By zwrócić wartość semafora, najpierw należy oczywiście zadeklarować zmienną, do której ta wartość będzie zwracana. Samo w sobie zwrócenie wartości można wykonać za pomocą funkcji [[sem_getvalue()]]. Poniżej najprostszy możliwy przykład rutyny wątku zwracającej wartość semafora:
+```c'
+sem_t sem;
+
+void* routine(void* args) {
+	int index = *(int*)args;
+	int semVal;
+	sem_wait(&sem);
+	sem_getvalue(&sem, &semVal);
+	printf("(%d) Current semaphore value after wait is %d\n", index, semVal);
+	sem_post(&sem);
+	sem_getvalue(&sem, &semVal);
+	printf("(%d) Current semaphore value after post is %d\n", index, semVal);
+	free(args);
+}
+```
+
+Powyższy kod jest narażony na [[Race conditions]]. Jeżeli wątki będą utworzone w pętli `for()`, nie ma gwarancji że będą się one wykonywać sekwencyjnie, więc prawdopodobieństwo, że wywołanie [[sem_getvalue()]] nastąpi w momencie zajścia wyścigu jest niezerowe.
+
+Zwracanie wartości semafora bywa przydatne, ale głównie w debugowaniu aplikacji i to zakładając, że ich wartość zostanie zwrócona w miarę dobrze lub że zatrzymanie procesu debugowania nastąpi w momencie umożliwiającym porównanie obu wartości. W zastosowaniach nieco poważniejszych nie powinno się jednak zwracać wartości semafora ani nie powinno używać się funkcji [[sem_getvalue()]].
+
 ---
 ### **Semafory w skrócie...**
 W systemie Linux dostępne są implementacje semaforów zgodne ze standardem **POSIX**. Semafory to niejako mutexy z nałożonym na nie licznikiem. Ponadto semafory, w przeciwieństwie do mutexów (a także mutexów rekurencyjnych), mogą być zablokowane w tym samym czasie przez różne wątki. Semafory są używane, kiedy jakiś zasób jest limitowany, i co za tym idzie dostęp do tego zasobu także powinien być limitowany dla wątków. Funkcje obsługujące semafory to:
@@ -142,5 +165,6 @@ W systemie Linux dostępne są implementacje semaforów zgodne ze standardem **P
 - https://www.youtube.com/watch?v=YSn8_XdGH7c&list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2&index=21
 - https://code-vault.net/lesson/v9l3sqtpft:1609091934815
 - legenda do schematów działania wątków:
-
 ![[Pasted image 20250124161207.png | center]]
+- https://www.youtube.com/watch?v=0ZlrB6rrUhA&list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2&index=26
+- https://code-vault.net/lesson/ixdjrxwfvt:1609433599509

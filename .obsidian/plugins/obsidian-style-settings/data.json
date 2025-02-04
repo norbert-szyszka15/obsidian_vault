@@ -1,5 +1,5 @@
 {
-  "com-github-birneee-obsidian-adwaita@@adwaita-mod": "adwaita-mod-linux-only",
+  "com-github-birneee-obsidian-adwaita@@adwaita-mod": "adwaita-mod-never",
   "com-github-birneee-obsidian-adwaita@@adwaita-window-button-minimize-hide": false,
   "com-github-birneee-obsidian-adwaita@@adwaita-window-button-maximize-hide": false,
   "com-github-birneee-obsidian-adwaita@@adwaita-tabs-short": false,

@@ -4,430 +4,450 @@
     "type": "split",
     "children": [
       {
-        "id": "14d6c61f3e392744",
-        "type": "tabs",
+        "id": "f94020892bb6abe4",
+        "type": "split",
         "children": [
           {
-            "id": "d032cda3a1dd72c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INFORMATYKA/Wątki w Linuxie.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+            "id": "14d6c61f3e392744",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d032cda3a1dd72c2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/Wątki w Linuxie.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Wątki w Linuxie"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Wątki w Linuxie"
-            }
+              {
+                "id": "d4de0b1d332bb88b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/Procesy w Linuxie.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Procesy w Linuxie"
+                }
+              },
+              {
+                "id": "28171ffc377c76b0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Komunikacja międzyprocesowa z wykorzystaniem potoków (pipe).md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Komunikacja międzyprocesowa z wykorzystaniem potoków (pipe)"
+                }
+              },
+              {
+                "id": "12759c6de7e6af27",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/fork().md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "fork()"
+                }
+              },
+              {
+                "id": "874c5d2c31dd7eab",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/Wielokrotne wywołania system calla fork().md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Wielokrotne wywołania system calla fork()"
+                }
+              },
+              {
+                "id": "324d655d373b946f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/getpid() i getppid().md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "getpid() i getppid()"
+                }
+              },
+              {
+                "id": "4a90a398f544c15f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/wait().md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "wait()"
+                }
+              },
+              {
+                "id": "fe4c7e655dc4bbd2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/Mutexy.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Mutexy"
+                }
+              },
+              {
+                "id": "274da9463216a113",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/Prosty praktyczny przykład zastosowania wątków.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Prosty praktyczny przykład zastosowania wątków"
+                }
+              },
+              {
+                "id": "99531c616ed454f0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/Semafory.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Semafory"
+                }
+              },
+              {
+                "id": "b3d9dd7c2f68c865",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/sem_wait().md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "sem_wait()"
+                }
+              },
+              {
+                "id": "ba66656aad9f9022",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/Zmienne warunkowe w C.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Zmienne warunkowe w C"
+                }
+              },
+              {
+                "id": "a7bc56ecda17b184",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "INFORMATYKA/sleep().md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "sleep()"
+                }
+              }
+            ],
+            "currentTab": 2
           },
           {
-            "id": "0334687243011949",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Problem producenta i konsumenta.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+            "id": "e110e3623143b5f0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "214b77a2fdf73679",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "EGZAMINY/1. Jakie mamy typy baz danych? Czym jest relacyjna baza danych?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "1. Jakie mamy typy baz danych? Czym jest relacyjna baza danych?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Problem producenta i konsumenta"
-            }
-          },
-          {
-            "id": "6c110e83e0cb0d59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Problem czytelników i pisarzy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "0855a269fbc15c41",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "EGZAMINY/2. Wymień 3 pierwsze postacie normalne.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2. Wymień 3 pierwsze postacie normalne"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Problem czytelników i pisarzy"
-            }
-          },
-          {
-            "id": "cb4117c5f84d782c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INFORMATYKA/Problem pięciu filozofów.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "418813c97d380e4b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "EGZAMINY/3. Czym jest redundancja danych?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "3. Czym jest redundancja danych?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Problem pięciu filozofów"
-            }
-          },
-          {
-            "id": "1b6c29864789199c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "86bcca79cd65a45f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_create().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "8e9b93cfbb3bac11",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "EGZAMINY/4. Czym jest anomalia modyfikacji?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "4. Czym jest anomalia modyfikacji?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "pthread_create()"
-            }
-          },
-          {
-            "id": "4293bd9028cd151f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_t.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "c57945caa70aa8ef",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "EGZAMINY/5. Czym jest anomalia usunięć?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "5. Czym jest anomalia usunięć?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "pthread_t"
-            }
-          },
-          {
-            "id": "9934d89e7393dd92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Bariery.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "0d4b1e346bac2236",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "6. Jakie mamy akcje na referencjach PK-FK? Czy akcja na referencji wywoła trigger?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "6. Jakie mamy akcje na referencjach PK-FK? Czy akcja na referencji wywoła trigger?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Bariery"
-            }
-          },
-          {
-            "id": "23ec15d0ebf22634",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Przekazywanie wartości do rutyny wątków.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "c7b1e1ac6d1ea668",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "7. Czym jest klucz główny?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "7. Czym jest klucz główny?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Przekazywanie wartości do rutyny wątków"
-            }
-          },
-          {
-            "id": "c350f00713017ada",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Podstawy zwracania wartości przez wątki.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "d92b0acb94ac275b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "8. Czym jest klucz obcy?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "8. Czym jest klucz obcy?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Podstawy zwracania wartości przez wątki"
-            }
-          },
-          {
-            "id": "2b7ea1b33efa5cb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Semafory.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "92992e56db5bddb0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "9. Jakie znasz typy danych w bazach danych?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "9. Jakie znasz typy danych w bazach danych?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Semafory"
-            }
-          },
-          {
-            "id": "bcd91c1ded6fc0ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Prosty praktyczny przykład zastosowania semaforów.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "452f2f5123453867",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "10. Czym jest indeks unique?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "10. Czym jest indeks unique?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Prosty praktyczny przykład zastosowania semaforów"
-            }
-          },
-          {
-            "id": "7be3c026da85fa7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/sem_wait().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "82564881584524b7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "11. Czym jest ograniczenie check?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "11. Czym jest ograniczenie check?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "sem_wait()"
-            }
-          },
-          {
-            "id": "01e923de4dc8a3a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/sem_post().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "954db410260c2c9b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "12. Do czego służy kolumna generated virtual?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "12. Do czego służy kolumna generated virtual?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "sem_post()"
-            }
-          },
-          {
-            "id": "2aa3e88eb5c63ae9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Mutexy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "59b486f88fd84860",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "13. Czym jest auto-inkrementacja?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "13. Czym jest auto-inkrementacja?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Mutexy"
-            }
-          },
-          {
-            "id": "efad95925216ee5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Deadlock.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+              {
+                "id": "da2563f7f182af79",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "14. Czym jest sekwencja?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "14. Czym jest sekwencja?"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Deadlock"
-            }
-          },
-          {
-            "id": "a941f13780c90987",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Mutexy rekurencyjne.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mutexy rekurencyjne"
-            }
-          },
-          {
-            "id": "2c3953a65e88ff30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_exit().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthread_exit()"
-            }
-          },
-          {
-            "id": "1139fb8856f29e6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_mutex_trylock().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthread_mutex_trylock()"
-            }
-          },
-          {
-            "id": "ba66656aad9f9022",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INFORMATYKA/Zmienne warunkowe w C.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Zmienne warunkowe w C"
-            }
-          },
-          {
-            "id": "a7bc56ecda17b184",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INFORMATYKA/Struktura projektu w C & C++.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Struktura projektu w C & C++"
-            }
+              {
+                "id": "d193d8f084370927",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "15. Czym jest język SQL?.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "15. Czym jest język SQL?"
+                }
+              }
+            ],
+            "currentTab": 14
           }
-        ]
+        ],
+        "direction": "horizontal"
       },
       {
         "id": "e2530d6d32a3527c",
         "type": "tabs",
         "children": [
-          {
-            "id": "16bf3988d45c7fb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_attr_setdetachstate().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthread_attr_setdetachstate()"
-            }
-          },
-          {
-            "id": "102cf60dd4bf685b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_detach().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthread_detach()"
-            }
-          },
-          {
-            "id": "a4d3db0d8afcd6a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Nieprzezroczyste typy danych (opaque data types).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nieprzezroczyste typy danych (opaque data types)"
-            }
-          },
-          {
-            "id": "f555d644d71d3067",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_mutexattr_init().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthread_mutexattr_init()"
-            }
-          },
-          {
-            "id": "349c2bcb47ed9150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/pthread_mutexattr_settype().md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthread_mutexattr_settype()"
-            }
-          },
-          {
-            "id": "503dc3a7f40638ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/exec.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "exec"
-            }
-          },
-          {
-            "id": "3a5667a0477b1efe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Użyteczne komendy Git.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Użyteczne komendy Git"
-            }
-          },
           {
             "id": "ea5e19687ebda153",
             "type": "leaf",
@@ -436,41 +456,11 @@
               "state": {
                 "file": "INFORMATYKA/tmux i nvim - keybindy i ustawienia.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "tmux i nvim - keybindy i ustawienia"
-            }
-          },
-          {
-            "id": "f6f64cdad4282710",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Proxmox - serwer kopii zapasowych (backup server).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proxmox - serwer kopii zapasowych (backup server)"
-            }
-          },
-          {
-            "id": "ff49e4db99a7f3ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/Proxmox - współużytkowana pamięć masowa (shared storage).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proxmox - współużytkowana pamięć masowa (shared storage)"
             }
           },
           {
@@ -487,9 +477,288 @@
               "icon": "lucide-file",
               "title": "Makefile"
             }
+          },
+          {
+            "id": "374e98de48960b5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/pthread_mutexattr_settype().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_mutexattr_settype()"
+            }
+          },
+          {
+            "id": "871210cc559643c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Procesy w Linuxie.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Procesy w Linuxie"
+            }
+          },
+          {
+            "id": "3d2e1bbd9e544d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TAGS/LINUX.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LINUX"
+            }
+          },
+          {
+            "id": "254fbd9b3c493704",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/pthread_mutexattr_init().md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "pthread_mutexattr_init()"
+            }
+          },
+          {
+            "id": "fcf16bfb22d4b55d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Nieprzezroczyste typy danych (opaque data types).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Nieprzezroczyste typy danych (opaque data types)"
+            }
+          },
+          {
+            "id": "62d7ef1ef37d6657",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "b63302b5e034be6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pule wątków w C.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Pule wątków w C"
+            }
+          },
+          {
+            "id": "e337fa4974fe2937",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/exec.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "exec"
+            }
+          },
+          {
+            "id": "86dbb0551515dcf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFORMATYKA/Wyciek pamięci - memory leak.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Wyciek pamięci - memory leak"
+            }
+          },
+          {
+            "id": "f8dd5583c0ab2957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redundancja.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Redundancja"
+            }
+          },
+          {
+            "id": "b34b9fb940151cbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pierwsza postać normalna (1NF).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Pierwsza postać normalna (1NF)"
+            }
+          },
+          {
+            "id": "efe1f3b2bd798b9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Druga postać normalna (2NF).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Druga postać normalna (2NF)"
+            }
+          },
+          {
+            "id": "1da49c847ef294fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trzecia postać normalna (3NF).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Trzecia postać normalna (3NF)"
+            }
+          },
+          {
+            "id": "d4d290d84095d6f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Klucz główny.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Klucz główny"
+            }
+          },
+          {
+            "id": "518cfd51323c1a8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Klucz obcy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Klucz obcy"
+            }
+          },
+          {
+            "id": "7dacdd58a96b082b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "read().md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "read()"
+            }
+          },
+          {
+            "id": "b8a32dd7f218e7fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "write().md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "write()"
+            }
+          },
+          {
+            "id": "83ccca67c9bdd3a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "close().md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "close()"
+            }
+          },
+          {
+            "id": "5186aaf8df86efa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pipe().md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "pipe()"
+            }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -501,18 +770,31 @@
       {
         "id": "681c7a56192f765e",
         "type": "tabs",
-        "dimension": 31.979166666666664,
+        "dimension": 72.08333333333333,
         "children": [
           {
-            "id": "20ae9993167c2b2f",
+            "id": "92ed3d31cfae88e3",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "gallery-vertical",
+              "title": "Vertical tabs"
+            }
+          },
+          {
+            "id": "2eb0a2fd6b479e07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -521,7 +803,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "projek",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -535,41 +817,21 @@
         ]
       },
       {
-        "id": "5c7521164c368133",
+        "id": "273f8392a15e37c8",
         "type": "tabs",
-        "dimension": 68.02083333333333,
+        "dimension": 27.91666666666667,
         "children": [
           {
-            "id": "a77766e8ff4f2c31",
+            "id": "20ae9993167c2b2f",
             "type": "leaf",
             "state": {
-              "type": "vertical-tabs",
-              "state": {},
-              "icon": "gallery-vertical",
-              "title": "Vertical tabs"
-            }
-          },
-          {
-            "id": "03217fe0d375c801",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "707787fbfd848a67",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
+              "type": "file-explorer",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ]
@@ -585,7 +847,7 @@
       {
         "id": "f42bca603b357d97",
         "type": "tabs",
-        "dimension": 45.66301096709871,
+        "dimension": 43.270189431704885,
         "children": [
           {
             "id": "868f742863e5056e",
@@ -613,16 +875,21 @@
       {
         "id": "97fe4e919779ad08",
         "type": "tabs",
-        "dimension": 54.33698903290129,
+        "dimension": 56.729810568295115,
         "children": [
           {
             "id": "b2806b60e21d7ec8",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Komunikacja międzyprocesowa z wykorzystaniem potoków (pipe).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Komunikacja międzyprocesowa z wykorzystaniem potoków (pipe)"
             }
           },
           {
@@ -631,12 +898,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INFORMATYKA/Wątki w Linuxie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Wątki w Linuxie"
+              "title": "Outgoing links"
             }
           },
           {
@@ -645,7 +911,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INFORMATYKA/Wątki w Linuxie.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -655,7 +920,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Wątki w Linuxie"
+              "title": "Backlinks"
             }
           }
         ]
@@ -675,53 +940,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a77766e8ff4f2c31",
+  "active": "38bee24d7eaf59eb",
   "lastOpenFiles": [
+    "INFORMATYKA/Procesy w Linuxie.md",
     "INFORMATYKA/Wątki w Linuxie.md",
-    "INFORMATYKA/Struktura projektu w C & C++.md",
-    "INFORMATYKA/Zmienne warunkowe w C.md",
-    "INFORMATYKA/Makefile.md",
-    "INFORMATYKA/Problem pięciu filozofów.md",
-    "INFORMATYKA/Budowa komputera SFF-PC.md",
-    "INFORMATYKA/Problem czytelników i pisarzy.md",
-    "INFORMATYKA/Problem producenta i konsumenta.md",
+    "Komunikacja międzyprocesowa z wykorzystaniem potoków (pipe).md",
+    "INFORMATYKA/fork().md",
+    "INFORMATYKA/tmux i nvim - keybindy i ustawienia.md",
+    "Pierwsza postać normalna (1NF).md",
+    "INFORMATYKA/Wyciek pamięci - memory leak.md",
+    "Redundancja.md",
+    "write().md",
+    "read().md",
+    "close().md",
+    "pipe().md",
+    "INFORMATYKA/Wielokrotne wywołania system calla fork().md",
+    "INFORMATYKA/getpid() i getppid().md",
+    "INFORMATYKA/sem_wait().md",
+    "15. Czym jest język SQL?.md",
+    "14. Czym jest sekwencja?.md",
+    "CLIPPINGS/DeepSeek.md",
+    "Clippings/DeepSeek.md",
+    "CLIPPINGS",
+    "13. Czym jest auto-inkrementacja?.md",
+    "12. Do czego służy kolumna generated virtual?.md",
+    "11. Czym jest ograniczenie check?.md",
+    "10. Czym jest indeks unique?.md",
+    "9. Jakie znasz typy danych w bazach danych?.md",
+    "8. Czym jest klucz obcy?.md",
+    "Klucz obcy.md",
+    "末 - MEDIA/egzamin_bd.pdf",
+    "末 - MEDIA/Pasted image 20250203114818.png",
+    "EGZAMINY",
+    "末 - MEDIA/Pasted image 20250130182120.png",
+    "末 - MEDIA/Pasted image 20250130181955.png",
     "NOTES/Problem czytelników i pisarzy.docx",
     "NOTES/Problem czytelników i pisarzy.odt",
-    "INFORMATYKA/tmux i nvim - keybindy i ustawienia.md",
     "末 - MEDIA/Pasted image 20250124220119.png",
-    "INFORMATYKA/Wątki odłączone.md",
-    "INFORMATYKA/Przekazywanie wartości do rutyny wątków.md",
-    "INFORMATYKA/Podstawy zwracania wartości przez wątki.md",
-    "INFORMATYKA/Użyteczne komendy Git.md",
-    "INFORMATYKA/Proxmox - współużytkowana pamięć masowa (shared storage).md",
-    "INFORMATYKA/Proxmox - serwer kopii zapasowych (backup server).md",
-    "INFORMATYKA/exec.md",
     "末 - MEDIA/Pasted image 20250124162000.png",
     "末 - MEDIA/Pasted image 20250124161207.png",
     "末 - MEDIA/Pasted image 20250124155826.png",
     "末 - MEDIA/Pasted image 20250124155617.png",
     "末 - MEDIA/Pasted image 20250124161044.png",
-    "INFORMATYKA/Bariery.md",
-    "INFORMATYKA/pthread_create().md",
-    "INFORMATYKA/Prosty praktyczny przykład zastosowania semaforów.md",
-    "INFORMATYKA/Semafory.md",
-    "INFORMATYKA/sem_wait().md",
-    "INFORMATYKA/sem_post().md",
-    "INFORMATYKA/Mutexy.md",
-    "INFORMATYKA/Mutexy rekurencyjne.md",
-    "INFORMATYKA/Deadlock.md",
-    "INFORMATYKA/pthread_mutexattr_settype().md",
     "末 - MEDIA/Pasted image 20250124111247.png",
-    "末 - MEDIA/Pasted image 20250124002104.png",
-    "末 - MEDIA/Pasted image 20241222195648.png",
-    "末 - MEDIA/Pasted image 20241222190755.png",
     "Lab_3_SO.pdf",
     "INFORMATYKA",
     "TAGS",
     "The Importance of Personal Branding_ Uses of Personal Branding fo.pdf",
-    "INFORMATYKA/Wprowadzenie do wskaźników.odt",
-    "末 - MEDIA",
-    "TAGS",
-    "DAILY NOTES"
+    "INFORMATYKA/Wprowadzenie do wskaźników.odt"
   ]
 }
